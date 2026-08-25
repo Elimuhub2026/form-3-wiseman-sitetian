@@ -1,0 +1,38 @@
+body{
+  background-image:url(kaka.jpg); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+  background-attachment: fixed; 
+    color: white;
+}
+h1{
+    color:blue;
+    text-align: center;
+    padding: 20px;
+}
+.portfolio{
+    display:flex;
+    padding: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.portfolio div{
+    flex: 1 1 260px;
+    background: pink;
+}
+.portfolio img{
+    border-radius: 12px;
+    width: 100%;
+    height: 70%;
+
+}
+.portfolio h2{
+    color:gold;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: blueviolet;
+    margin-top: 10px;
+}
